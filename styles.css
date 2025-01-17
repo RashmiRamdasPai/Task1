@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+}
+h1,h2{
+   text-align: center;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  img {
+    height: 140px;
+    width:100px;
+    
+    border-radius: 5%;
+    float:left;
+  }
+  .about{
+    font-family: "Lucida Console", "Courier New", monospace;;
+  }
+  .contanier{
+    width:50%;
+    
+    background-color: #ddd;
+  }
+  .skills{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+  }
+  .html{
+    width:80%;
+    background-color:#00bfff ;
+  }
+  .css{
+    width:75%;
+    background-color: #00bfff;
+  }
+  .JavaScript{
+    width:60%;
+    background-color: #00bfff;
+  }
+  .Java{
+    width:70%;
+    background-color: #00bfff;
+  }
+  .C{
+    width:80%;
+    background-color: #00bfff;
+  }
+  .python{
+    width:60%;
+    background-color: #00bfff;
+  }
+  .Project1{
+    padding: 2px 16px;
+   
+  }
+  .Project2{
+    padding: 2px 16px;
+  }
+  .card{
+    width:40%;
+    display: inline-block;
+  }
+ 
+  
